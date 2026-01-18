@@ -1,7 +1,7 @@
 package br.com.dio.dominio;
 
 public abstract class Conteudo {
-    protected final Double XP_PADRAO = 10.d;
+    protected static final Double XP_PADRAO = 10d;
 
     private String titulo;
     private String descricao;
